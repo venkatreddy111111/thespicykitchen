@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Page</title>
+  <style>
+     body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ccc;
+}
+
+.hamburger-menu {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.menu-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.menu-category {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+}
+
+.menu-item-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+
+.menu-item-price {
+  color: #333;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container1">
+            <a href="Web.html" class="logo">The Spicy Kitchen</a>
+            <ul class="nav-links">
+                <li><a href="Web.html">Home</a></li>
+                <li><a href="#">Menu</a></li>
+               
+            </ul>
+            <div class="hamburger-menu">&#9776;</div>
+        </div>
+    </nav>
+
+<div class="menu-container">
+  <header>
+    <h1>Our Menu</h1>
+  </header>
+  
+  <section class="menu-category">
+    <h2>Biryanis</h2>
+    <div class="menu-item">
+      <div class="menu-item-name">Hyderabad Dum Biryani </div>
+      
+      <div class="menu-item-price">$5</div>
+    </div>
+    <div class="menu-item">
+        <div class="menu-item-name">Special Chicken Biryani </div>
+        
+        <div class="menu-item-price">$5</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-name">Bamboo Biryani </div>
+        
+        <div class="menu-item-price">$6</div>
+      </div>
+    <div class="menu-item">
+        <div class="menu-item-name">Chicken 65 Biryani </div>
+        
+        <div class="menu-item-price">$5</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-name">Prawns Biryani </div>
+        
+        <div class="menu-item-price">$7</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-name">Mutton Biryani </div>
+        
+        <div class="menu-item-price">$7</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-name">Mutton Biryani </div>
+        
+        <div class="menu-item-price">$7</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-name">Egg Biryani </div>
+        
+        <div class="menu-item-price">$4</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-name">Veg Biryani </div>
+        
+        <div class="menu-item-price">$3</div>
+      </div>
+    
+  </section>
+  
+  </div>
+  </body>
+  </html>
+

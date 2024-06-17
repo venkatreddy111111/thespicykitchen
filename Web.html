@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Spicy Kitchen</title>
+
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ccc;
+}
+
+.hamburger-menu {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    p {
+      color: #666;
+      font-size: 1.1em;
+      margin-bottom: 15px;
+    }
+    .container2 {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .paragraph-style {
+      color: #333;
+      font-size: 1.1em;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+    .paragraph-style:first-letter {
+      font-size: 1.5em;
+      font-weight: bold;
+      float: left;
+      margin-right: 5px;
+      color: #ff6347;
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container1">
+        <a href="Web.html" class="logo">The Spicy Kitchen</a>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+           
+        </ul>
+        <div class="hamburger-menu">&#9776;</div>
+    </div>
+</nav>
+
+
+
+<div class="container2">
+   
+    <p class="paragraph-style">Welcome to Spicy Kitchen!
+
+       </p>
+    
+   
+    
+    <h2>Our Specials</h2>
+    <ul>
+      <li>Hyderabad Dum Biryani</li>
+      <li>Special Chicken Biryani </li>
+      <li>Bambo Chicken Biryani</li>
+      
+    </ul>
+    
+    <h2>Contact Us</h2>
+    <p>Email: contact@thespicykitchen.com<br>
+       Phone: +1234567890</p>
+  </div>
+</body>
+</html>
